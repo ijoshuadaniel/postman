@@ -1,0 +1,64 @@
+@import './../../index.scss';
+.body {
+  font-size: 0.9rem;
+  &-Tab {
+    border: 1px solid $green;
+    border-bottom: none;
+    padding: 1rem;
+  }
+  &-TabBody {
+    border: 1px solid $green;
+    padding: 1rem;
+  }
+  &-TabLink {
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    color: $green;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .addbutton {
+    padding: 0.5rem;
+    border: 1px solid $green;
+    background-color: $green;
+    color: white;
+    border-radius: 0.5rem;
+  }
+  .inputText {
+    padding: 0.5rem;
+    border: 1px solid $green;
+    &:first-child {
+      border-right: none;
+    }
+  }
+  button {
+    padding: 0.5rem;
+    background-color: $green;
+    border: 1px solid $green;
+    color: white;
+  }
+  .inputBody {
+    padding: 0.5rem;
+    height: 200px;
+    border: 1px solid $green;
+    border-right: 1px solid $green;
+    resize: none;
+    color: #48bf84;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .inputBodyResponse {
+    padding: 0.5rem;
+    height: 200px;
+    border: 1px solid $green;
+    border-right: 1px solid $green;
+    resize: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .Active {
+    color: #48bf84;
+  }
+}

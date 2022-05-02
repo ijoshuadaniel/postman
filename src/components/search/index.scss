@@ -1,0 +1,23 @@
+@import '../../index.scss';
+.search {
+  font-size: 0.9rem;
+  &-select {
+    width: 20%;
+    padding: 0.5rem;
+    border: 1px solid $green;
+    color: $green;
+    border-right: none;
+  }
+  &-input {
+    width: 60%;
+    padding: 0.5rem;
+    border: 1px solid $green;
+  }
+  &-button {
+    width: 20%;
+    padding: 0.5rem;
+    border: 1px solid $green;
+    background-color: $green;
+    color: white;
+  }
+}
